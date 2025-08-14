@@ -84,7 +84,11 @@ button {
     }
 
     ul {
-      @apply flex-center lg:gap-12 gap-7;
+      @apply flex-center lg:gap-12 gap-7 text-gray-400;
+
+      li {
+        @apply hover:text-white;
+      }
     }
   }
 
