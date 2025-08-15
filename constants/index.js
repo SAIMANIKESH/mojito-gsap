@@ -13,7 +13,7 @@ const navLinks = [
  },
  {
 	id: "contact",
-	title: "Contact",
+	title: "Contact Us",
  },
 ];
 
@@ -168,6 +168,17 @@ const allCocktails = [
 	 "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
  },
 ];
+
+export function getTabTitle(pathname) {
+  if (pathname === "/") return "Mojito";
+
+  const parts = pathname.split("/").filter(Boolean); // remove empty strings
+  const capitalized = parts.map(
+    (part) => part.charAt(0).toUpperCase() + part.slice(1)
+  );
+
+  return `${capitalized.reverse().join(" - ")} - Mojito`;
+}
 
 export {
  navLinks,
