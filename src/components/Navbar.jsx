@@ -43,7 +43,7 @@ export default function Navbar() {
       if (section) {
         ScrollTrigger.create({
           trigger: section,
-          start: 'top 60%',
+          start: 'top 20%',
           end: 'bottom 40%',
           onEnter: () => {
             document.title = `${link.title} - Velvet Pour`;

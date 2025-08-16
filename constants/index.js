@@ -44,7 +44,7 @@ const cocktailLists = [
  },
 ];
 
-const mockTailLists = [
+const mocktailLists = [
  {
 	name: "Tropical Bloom",
 	country: "US",
@@ -105,7 +105,7 @@ const storeInfo = {
  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
  contact: {
 	phone: "(555) 987-6543",
-	email: "hello@jsmcocktail.com",
+	email: "velvetpour@jsmcocktail.com",
  },
 };
 
@@ -169,21 +169,10 @@ const allCocktails = [
  },
 ];
 
-export function getTabTitle(pathname) {
-  if (pathname === "/") return "Mojito";
-
-  const parts = pathname.split("/").filter(Boolean); // remove empty strings
-  const capitalized = parts.map(
-    (part) => part.charAt(0).toUpperCase() + part.slice(1)
-  );
-
-  return `${capitalized.reverse().join(" - ")} - Mojito`;
-}
-
 export {
  navLinks,
  cocktailLists,
- mockTailLists,
+ mocktailLists,
  profileLists,
  featureLists,
  goodLists,

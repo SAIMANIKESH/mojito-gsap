@@ -2,7 +2,7 @@
 
 ## <a name="preview">🔍 Preview</a>
 
-- Deployed App Link - [View](https://velvet-pour.netlify.app)
+- Deployed App Link - [View](https://velvet-pour-puce.vercel.app/)
 - Git Repository Link - [View](https://github.com/SAIMANIKESH/velvet-pour-gsap)
 
 ## <a name="introduction">🤖 Introduction</a>
